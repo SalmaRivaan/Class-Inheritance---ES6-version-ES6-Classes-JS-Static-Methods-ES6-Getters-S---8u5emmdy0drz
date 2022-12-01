@@ -1,11 +1,9 @@
-{"homepage":"https://SalmaRivaan.github.io/Class-Inheritance---ES6-version-ES6-Classes-JS-Static-Methods-ES6-Getters-S---8u5emmdy0drz",
+{
   "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-      "predeploy" : "npm run build" ,
-"deploy" : "gh-pages -d build",
     "test": "jest",
     "start": "webpack-dev-server --mode development --watch --open --hot",
     "build": "webpack --mode production"
