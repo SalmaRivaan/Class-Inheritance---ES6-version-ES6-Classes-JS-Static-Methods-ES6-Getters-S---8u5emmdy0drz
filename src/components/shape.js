@@ -1,14 +1,20 @@
-class Shape {
-    constructor() {
-        this.color = "#FF40FF";
-        this.state = () => { return 5 }
-    }
-    drawShape() {
-        return this.color
-    }
-    calculateArea() {
-        return 1;
-    }
-}
-
-module.exports = Shape
+class Shape{ 
+     constructor(name){ 
+        this.name; 
+  
+     } 
+  
+     drawShape(){ 
+         return`${this.name} is drawn`; 
+     } 
+  
+     calculateArea(length,width){ 
+         return 2*(length*width); 
+          
+     } 
+     color(color){ 
+         return `${color} is Applied on ${this.name}`; 
+     } 
+      
+ } 
+ module.exports = Shape; 
