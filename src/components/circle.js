@@ -1,9 +1,16 @@
-const Shape = require('./shape')
-
-class Circle extends Shape {
-    calculateArea() {
-        return 3.14;
-    }
-
-}
-module.exports = Circle
+var Shape = require('./shape'); 
+  
+ // declare class 
+ class Circle extends Shape{ 
+     constructor(name){ 
+         super(name); 
+  
+     } 
+  
+     calculateArea(radius){ 
+         return Math.PI * Math.pow(radius,2); 
+     } 
+      
+ } 
+  
+ module.exports=Circle; 
