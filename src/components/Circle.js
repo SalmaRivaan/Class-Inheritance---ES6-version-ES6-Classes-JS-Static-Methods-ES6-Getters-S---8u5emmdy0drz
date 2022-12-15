@@ -1,4 +1,4 @@
-var Shape = require('./shape'); 
+var Shape = require('./Shape'); 
   
  // declare class 
  class Circle extends Shape{ 
